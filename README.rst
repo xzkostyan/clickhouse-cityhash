@@ -18,18 +18,6 @@ To use this package in your program, simply type
 
     pip install clickhouse-cityhash
 
-Development
------------
-If you want to contribute to original package by developing, the included Makefile
-provides some useful commands to help you with that task:
-
-.. code-block:: bash
-
-    git clone https://github.com/escherba/python-cityhash.git
-    cd python-cityhash
-    make env           # creates a Python virtualenv
-    make test          # runs both Python and C++ tests
-
 See Also
 --------
 For other fast non-cryptographic hashing implementations available as Python

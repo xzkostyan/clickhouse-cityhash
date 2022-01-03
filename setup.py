@@ -61,7 +61,7 @@ else:
 
 
 VERSION = '1.0.2.3'
-URL = "https://github.com/xzkostyan/python-cityhash"
+URL = "https://github.com/xzkostyan/clickhouse-cityhash"
 
 with open('README.rst', encoding='utf-8') as f:
     LONG_DESCRIPTION = f.read()
