@@ -2,7 +2,7 @@ import unittest
 import random
 import string
 import sys
-from cityhash import CityHash64WithSeed, CityHash128WithSeed
+from clickhouse_cityhash.cityhash import CityHash64WithSeed, CityHash128WithSeed
 
 
 if sys.version_info[0] >= 3:
