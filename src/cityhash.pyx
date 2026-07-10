@@ -152,7 +152,7 @@ cpdef CityHash128(data):
         result = c_CityHash128(<const char*>buf.buf, buf.len)
     else:
         raise _type_error("data", ["basestring", "buffer"], data)
-    final = 0x10000000000000000L * long(result.first) + long(result.second)
+    final = 0x10000000000000000L * int(result.first) + int(result.second)
     return final
 
 cpdef CityHash128WithSeed(data, seed=0L):
@@ -180,5 +180,5 @@ cpdef CityHash128WithSeed(data, seed=0L):
         result = c_CityHash128WithSeed(<const char*>buf.buf, buf.len, tseed)
     else:
         raise _type_error("data", ["basestring", "buffer"], data)
-    final = 0x10000000000000000L * long(result.first) + long(result.second)
+    final = 0x10000000000000000L * int(result.first) + int(result.second)
     return final
