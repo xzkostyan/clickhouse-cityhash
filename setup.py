@@ -60,7 +60,7 @@ else:
     )
 
 
-VERSION = '1.0.2.5'
+VERSION = '1.0.2.6'
 URL = "https://github.com/xzkostyan/clickhouse-cityhash"
 
 with open('README.rst', encoding='utf-8') as f:
